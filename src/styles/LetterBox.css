@@ -1,0 +1,29 @@
+.letter-box{
+    background-color: #121213;
+    height: 50px;
+    width: 50px;
+    border: 1px solid grey;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    -moz-user-select: none; /* For Firefox */
+    -webkit-user-select: none; /* For Safari */
+    -ms-user-select: none; 
+}
+.letter-box p{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
+.right-position{
+    background-color: #538D4E;
+}
+.wrong-position{
+    background-color: #B59F3B;
+}
+.guessed{
+    background-color: #3A3A3C;
+}
